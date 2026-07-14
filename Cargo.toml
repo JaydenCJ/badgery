@@ -1,0 +1,19 @@
+[package]
+name = "badgery"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["JaydenCJ"]
+description = "Shields-compatible SVG badge generator for airgapped CI: local JSON endpoints in, badges out, zero network calls ever."
+license = "MIT"
+repository = "https://github.com/JaydenCJ/badgery"
+keywords = ["badge", "svg", "shields", "ci", "offline"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+# none — badgery is std-only by design (the point of the tool is that it
+# can be vendored into an airgapped environment as a single reviewable crate).
+
+[profile.release]
+strip = true
+lto = true

@@ -1,0 +1,36 @@
+{
+  "outDir": "badges",
+  "badges": [
+    {
+      "name": "build",
+      "type": "static",
+      "label": "build",
+      "message": "passing",
+      "color": "brightgreen"
+    },
+    {
+      "name": "coverage",
+      "type": "endpoint",
+      "file": "coverage.json"
+    },
+    {
+      "name": "version",
+      "type": "query",
+      "file": "release.json",
+      "query": "$.version",
+      "label": "version",
+      "prefix": "v",
+      "color": "blue"
+    },
+    {
+      "name": "tests",
+      "type": "query",
+      "file": "release.json",
+      "query": "$.tests.passed",
+      "label": "tests",
+      "suffix": " passed",
+      "color": "brightgreen",
+      "style": "flat-square"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="372" viewBox="0 0 860 372" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+  <!-- Terminal rendering of a real badgery session; the badges below are
+       verbatim `badgery static` output nested as inner <svg> elements
+       (gradient/clip ids suffixed to keep the composite document valid). -->
+  <rect width="860" height="372" rx="10" fill="#1c2128"/>
+  <rect width="860" height="34" rx="10" fill="#2d333b"/>
+  <rect y="17" width="860" height="17" fill="#2d333b"/>
+  <circle cx="20" cy="17" r="6" fill="#f47067"/>
+  <circle cx="40" cy="17" r="6" fill="#dfb317"/>
+  <circle cx="60" cy="17" r="6" fill="#57ab5a"/>
+  <text x="430" y="22" fill="#9ea7b3" text-anchor="middle" font-size="13">badgery — offline badges for airgapped CI</text>
+  <text x="24" y="64"><tspan fill="#57ab5a">$</tspan> <tspan fill="#e6edf3">badgery build --manifest badgery.json</tspan></text>
+  <text x="24" y="90" fill="#768390">wrote badges/build.svg · badges/coverage.svg · badges/version.svg · badges/tests.svg</text>
+  <text x="24" y="114" fill="#768390">built 4/4 badges in badges</text>
+  <svg x="24.0" y="144" xmlns="http://www.w3.org/2000/svg" width="88" height="20" role="img" aria-label="build: passing">
+    <title>build: passing</title>
+    <linearGradient id="s0" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient>
+    <clipPath id="r0"><rect width="88" height="20" rx="3" fill="#fff"/></clipPath>
+    <g clip-path="url(#r0)">
+      <rect width="36.5" height="20" fill="#555"/>
+      <rect x="36.5" width="51.5" height="20" fill="#4c1"/>
+      <rect width="88" height="20" fill="url(#s0)"/>
+    </g>
+    <g text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+      <text aria-hidden="true" x="182" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="265">build</text>
+      <text x="182" y="140" fill="#fff" transform="scale(.1)" textLength="265">build</text>
+      <text aria-hidden="true" x="622" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="415">passing</text>
+      <text x="622" y="140" fill="#fff" transform="scale(.1)" textLength="415">passing</text>
+    </g>
+  </svg>
+  <svg x="126.0" y="144" xmlns="http://www.w3.org/2000/svg" width="96.5" height="20" role="img" aria-label="coverage: 92%">
+    <title>coverage: 92%</title>
+    <linearGradient id="s1" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient>
+    <clipPath id="r1"><rect width="96.5" height="20" rx="3" fill="#fff"/></clipPath>
+    <g clip-path="url(#r1)">
+      <rect width="59.8" height="20" fill="#555"/>
+      <rect x="59.8" width="36.7" height="20" fill="#97ca00"/>
+      <rect width="96.5" height="20" fill="url(#s1)"/>
+    </g>
+    <g text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+      <text aria-hidden="true" x="299" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="498">coverage</text>
+      <text x="299" y="140" fill="#fff" transform="scale(.1)" textLength="498">coverage</text>
+      <text aria-hidden="true" x="781" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="267">92%</text>
+      <text x="781" y="140" fill="#fff" transform="scale(.1)" textLength="267">92%</text>
+    </g>
+  </svg>
+  <svg x="236.5" y="144" xmlns="http://www.w3.org/2000/svg" width="95" height="20" role="img" aria-label="version: v1.4.2">
+    <title>version: v1.4.2</title>
+    <linearGradient id="s2" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient>
+    <clipPath id="r2"><rect width="95" height="20" rx="3" fill="#fff"/></clipPath>
+    <g clip-path="url(#r2)">
+      <rect width="49.8" height="20" fill="#555"/>
+      <rect x="49.8" width="45.2" height="20" fill="#007ec6"/>
+      <rect width="95" height="20" fill="url(#s2)"/>
+    </g>
+    <g text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+      <text aria-hidden="true" x="249" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="398">version</text>
+      <text x="249" y="140" fill="#fff" transform="scale(.1)" textLength="398">version</text>
+      <text aria-hidden="true" x="724" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="352">v1.4.2</text>
+      <text x="724" y="140" fill="#fff" transform="scale(.1)" textLength="352">v1.4.2</text>
+    </g>
+  </svg>
+  <svg x="345.5" y="144" xmlns="http://www.w3.org/2000/svg" width="102.7" height="20" role="img" aria-label="tests: 89 passed">
+    <title>tests: 89 passed</title>
+    <g shape-rendering="crispEdges">
+      <rect width="36.7" height="20" fill="#555"/>
+      <rect x="36.7" width="66" height="20" fill="#4c1"/>
+    </g>
+    <g text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+      <text x="183" y="140" fill="#fff" transform="scale(.1)" textLength="267">tests</text>
+      <text x="697" y="140" fill="#fff" transform="scale(.1)" textLength="560">89 passed</text>
+    </g>
+  </svg>
+  <text x="24" y="188"><tspan fill="#57ab5a">$</tspan> <tspan fill="#e6edf3">badgery serve --root ci --addr 127.0.0.1:8331</tspan></text>
+  <text x="24" y="214" fill="#768390">badgery 0.1.0 serving http://127.0.0.1:8331/ (root: ci)</text>
+  <text x="24" y="238" fill="#768390">GET /endpoint?file=coverage.json -&gt; 200 · GET /badge/release-stable-informational.svg -&gt; 200</text>
+  <svg x="24" y="268" xmlns="http://www.w3.org/2000/svg" width="142.4" height="28" role="img" aria-label="release: stable">
+    <title>release: stable</title>
+    <g shape-rendering="crispEdges">
+      <rect width="75.7" height="28" fill="#555"/>
+      <rect x="75.7" width="66.7" height="28" fill="#007ec6"/>
+    </g>
+    <g text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
+      <text x="378" y="175" fill="#fff" transform="scale(.1)" textLength="577">RELEASE</text>
+      <text x="1090" y="175" fill="#fff" transform="scale(.1)" textLength="487" font-weight="bold">STABLE</text>
+    </g>
+  </svg>
+  <svg x="180.4" y="272" xmlns="http://www.w3.org/2000/svg" width="74.7" height="20" role="img" aria-label="scan: failed">
+    <title>scan: failed</title>
+    <linearGradient id="s5" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient>
+    <clipPath id="r5"><rect width="74.7" height="20" rx="3" fill="#fff"/></clipPath>
+    <g clip-path="url(#r5)">
+      <rect width="34.9" height="20" fill="#555"/>
+      <rect x="34.9" width="39.8" height="20" fill="#e05d44"/>
+      <rect width="74.7" height="20" fill="url(#s5)"/>
+    </g>
+    <g text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+      <text aria-hidden="true" x="174" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="249">scan</text>
+      <text x="174" y="140" fill="#fff" transform="scale(.1)" textLength="249">scan</text>
+      <text aria-hidden="true" x="548" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="298">failed</text>
+      <text x="548" y="140" fill="#fff" transform="scale(.1)" textLength="298">failed</text>
+    </g>
+  </svg>
+  <text x="24" y="320" fill="#768390">zero network calls · one static binary · shields-compatible syntax</text>
+</svg>
